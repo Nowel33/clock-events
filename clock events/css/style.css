@@ -1,0 +1,380 @@
+/*---------- ESTILOS GENERALES ----------*/
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300,400,700);
+@import url(http://fonts.googleapis.com/css?family=Dosis:300,400,700);
+
+*{
+	padding:0;
+	margin:0;
+}
+
+body{
+	font-family: Open-sans;
+	background-color: white;
+}
+
+h1 {
+  color: white;
+  font-family: Dosis;
+  font-size: 1.3em;
+  font-weight: 100;
+  letter-spacing: 5px;
+  line-height: 1.1em;
+  margin-bottom: 65px;
+  padding: 100px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+
+h2 {
+  font-family: Dosis;
+  font-size: 1.8em;
+  font-weight: 500;
+  letter-spacing: 9px;
+  line-height: 1em;
+  margin-bottom: 30px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+h3 {
+  font-family: Dosis;
+  font-size: 1em;
+  font-weight: 600;
+  letter-spacing: 4px;
+  line-height: 1em;
+  margin-bottom: 30px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+
+h4 {
+  font-family: Dosis;
+  color: #9c9c9c;
+  font-size: 1em;
+  font-weight: 500;
+  letter-spacing: 9px;
+  line-height: 1em;
+  margin-bottom: 30px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+h5 {
+  font-size: 2em;
+  font-weight: 100;
+  letter-spacing: 1px;
+  line-height: 1em;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  font-family: Dosis;
+  text-align: center;
+}
+
+h6 {
+  font-size: 2em;
+  font-weight: 100;
+  letter-spacing: 1px;
+  line-height: 1em;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  font-family: Dosis;
+  text-align: center;
+}
+
+
+p{	
+	margin: 20px,auto;
+}
+
+
+section, footer{
+	padding-top:100px;
+	padding-bottom:100px;
+}
+
+.paddingLateral{
+	padding-left: 100px;
+	padding-right: 100px;
+  text-align: center;
+}
+
+.greySection{
+  background: #eae6da;
+}
+
+.ovAu{
+  overflow: auto;
+}
+
+ul, ol{
+  list-style-type: none;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+
+
+
+/*---------- SECCIÓN INICIO ----------*/
+
+#inicio{
+	background: url("../img/hero_background.jpg") no-repeat center / cover;
+  height: 650px;
+  background-attachment: fixed;
+	
+}
+
+
+#inicio img{
+  float: left;
+  height: 40px;
+  margin: 15px;
+}
+
+#inicio nav{
+  float: right;
+  margin-right: 15px;
+}
+
+#inicio .navC{
+  overflow: auto;
+  background-color: rgba(1, 1, 1, 0.3);
+  position: fixed;
+  width: 100%;
+  z-index: 2;
+
+
+}
+
+#inicio nav li{
+  float: left;
+}
+
+#inicio nav li a{
+  display: block;
+  padding: 31px 15px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 0.8em;
+
+}
+
+#inicio p{
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 1em;
+  text-align: center;
+  margin: 90px;
+  color: white; 
+}
+
+#inicio h1{
+  padding: 165px;
+}
+
+#inicio .enorme{
+  height: 200px;
+  left: 200px;
+  position: absolute;
+  top: 240px;
+  text-align: center;
+}
+
+
+
+/*--------------------SECCION NOSOTROS-------------------------------------*/
+#nosotros{
+  padding: 50px 10px;
+}
+
+
+#nosotros img{
+  width: 50px;
+  height: 50px;
+}
+
+#nosotros p{
+  font-weight: 500;
+  letter-spacing: 3px;
+  color: #9c9c9c;
+  padding-bottom: 10px;
+}
+
+.pbig{
+  font-weight: 800;
+  letter-spacing: 5px;
+  color: #9c9c9c;
+  padding-bottom: 10px;
+  font-size: 1.5em;
+}
+
+#nosotros .box1 article{
+  width: calc(19% - 11px);
+  margin: 10px auto;
+  float: left;
+  position: relative;
+  padding: 10px;
+
+}
+
+#nosotros .box2 article{
+  width: calc(33.3% - 40px);
+  margin: 20px auto;
+  float: left;
+  overflow: hidden;
+      text-align: justify;
+  position: relative;
+  padding: 10px;
+
+}
+
+/*#nosotros h3{
+  text-align: justify;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: rgb(230, 230, 230);
+  
+}*/
+
+ .info{
+  text-align: right;
+  color: #000;
+
+}
+
+
+/*-------------------------SECCION APUNTATE-------------------------------------------------*/
+
+#apuntate{
+  background: #eae6da;
+}
+
+#apuntate p{ 
+  color: #000;
+  text-align: center;
+  margin: 20px auto;
+}
+
+#apuntate h3{
+  letter-spacing: 8px;
+}
+#apuntate .boton{
+  background-color: #000;
+  color: #fff;
+  letter-spacing: 3px;
+  padding: 12px;
+  text-transform: uppercase;
+  width: 200px;
+}
+
+/*--------------------------SECCION CONTACTO------------------------------------------------------*/
+
+#contacto{
+  background: url("../img/cancan-background.jpg") no-repeat center / cover;
+  height: 400px;
+  background-attachment: fixed;
+  
+}
+
+#contacto article{
+  width: calc(50% - 20px);
+  margin: 10px auto;
+  float: left;
+}
+
+#contacto article h3,p{
+  color: white;
+  text-align: left;
+  padding: 10px;
+  line-height: 1.5em;
+}
+
+#contacto #float-p{
+  margin-top: 100px;
+}
+
+#contacto .boton2{
+  background-color: #9c9c9c;
+  letter-spacing: 3px;
+  padding: 12px;
+  text-transform: uppercase;
+  width: 200px;
+  
+}
+
+#contacto article img{
+  float: right;
+  width: 450px;
+  
+}
+
+/*-------------------------------------SECCION VALORES---------------------------------------------*/
+
+#valor article{
+  width: calc(33% - 20px);
+  margin: 0 10px;
+  float: left;
+  min-height: 350px;
+  position: relative;
+
+}
+
+#valor article img{
+  width: 50px;
+  height: 50px;
+}
+
+#valor article p{
+  color: #000;
+  font-size: 1em;
+  font-weight: 500;
+  text-align: left;
+  line-height: 22px;
+}
+
+/*------------------------------------------SECCION HABLEMOS-------------------------------*/
+
+#hablar{
+  background: #000;
+}
+
+#hablar p{ 
+  text-align: center;
+}
+
+#hablar h3{
+  color: #fff;
+  letter-spacing: 8px;
+}
+
+#hablar .boton3{
+  background-color: #9c9c9c;
+  letter-spacing: 3px;
+  padding: 12px;
+  text-transform: uppercase;
+  width: 200px;
+  
+}
+
+/*-------------------------------------------FOOTER----------------------------------------*/
+
+footer img{
+  padding-top: 50px;
+}
+
+footer p{
+  color: #000;
+  text-align: center;
+  padding-top: 200px;
+}
+
+footer a{
+  color: #000;
+}

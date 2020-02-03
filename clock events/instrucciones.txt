@@ -1,0 +1,41 @@
+Revisa el screenshot 'objtivo.jpg' para ver qué composición debes alcanzar.
+
+Revisa el screenshot 'ayuda-columnado.jpg' para ver qué columnas hay en la página. El resto de elementos no marcados, no son columnas. Se disponen con normalidad.
+
+Reproduce el vídeo 'Previsualizacion.avi' para ver qué experiencia de navegación debe aportar la plataforma.
+
+Todos los materiales requeridos se encuentran en la carpeta 'materiales'.
+
+Cada una de las cinco imnágenes de "Nuestros servicios" debe ejecutar una ventana modal con el título de cada servicio y un texto Lorem Ipsum.
+
+
+
+________________________________
+
+
+
+
+¿Cómo centro horizontalmente elementos que no son textos, por ejemplo, imágenes?
+
+Los elementos en línea (textos, <span>, imágenes...) se centran mediante 'text-align: center'.
+
+Los elementos en bloque centran dando el valor 'auto' al margin de su izquierda y derecha, es decir con la propiedad 'margin: 0 auto;' El valor auto en los márgenes laterales hace que el elemento en bloque deje el mismo espacio libre en cada uno de sus lados con independencia del ancho de su contenedor. Si se desea dar un márgen vertical a ese elemento, puede hacerse con normalidad respetando el valor 'auto' de su eje lateral. Por ejemplo: 'margin: 20px auto;' dejará 20px por arriba y abajo, y lo centrará horizontalmente.
+
+
+¿Qué fuente es esa?
+
+Son dos: Open Sans para textos de lectura y Dosis para encabezados, ámbas de Google Fonts.
+
+Añade estas dos líneas al principio de tu hoja de estilos:
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300,400,700);
+@import url(http://fonts.googleapis.com/css?family=Dosis:300,400,700);
+
+Y ya puedes aplicar como font-family cualquiera de estas dos fuentes, con font-weight de 300, 400 ó 700.
+
+Ejemplo:
+
+p{
+	font-family: 'Open Sans';
+	font-weight: 400;
+}in

@@ -1,0 +1,346 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300,400,700);
+@import url(http://fonts.googleapis.com/css?family=Dosis:300,400,700);
+
+
+/*------------------------------------------------------
+RESETEO DE ESTILOS
+------------------------------------------------------*/
+
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+li{
+	list-style: none;
+}
+
+a{
+	color:black;
+	text-decoration: none;
+}
+
+button{
+    border:none;
+}
+
+
+
+/*------------------------------------------------------
+ESTILOS GENERALES
+------------------------------------------------------*/
+
+.overflowAuto{
+	overflow: auto;
+}
+
+.grey-section{
+	background-color: rgb(240, 240, 240);
+}
+
+.paddingLateral{
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+body{
+	font-family: 'Open Sans';
+	color:black;
+}
+
+p{	
+	font-weight: 400;
+    line-height: 1.5em;
+}
+
+h1{
+	float:left;
+}
+
+h1 span{
+	display:none;
+}
+
+h2{
+    color: white;
+    font-family: "Dosis";
+    font-size: 1.1em;
+    font-weight: 300;
+    margin-bottom: 80px;
+    text-transform: uppercase;
+}
+
+h3{
+    font-family: "Dosis";
+    font-size: 1.2em;
+    font-weight: 300;
+    letter-spacing: 7px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h5{
+	color: white;
+	font-weight: 300;
+	text-align: left;
+	letter-spacing: 3px;
+	margin: 10px auto;
+	text-transform: uppercase;
+	font-family: 'Dosis';
+}
+
+h6{
+	color: black;
+	font-weight: 300;
+	text-align: center;
+	letter-spacing: 4px;
+	margin: 10px auto;
+	text-transform: uppercase;
+	font-family: 'Dosis';
+    font-size: 1.1em;
+}
+
+section{
+	padding: 100px 0;
+}
+
+button a{
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    display: block;
+    font-size: 0.8em;
+    font-weight: lighter;
+    letter-spacing: 3px;    
+    padding: 8px 0;
+    text-transform: uppercase;
+    width: 180px;
+}
+
+
+button.blanco a{
+    background-color: rgba(255, 255, 255, 0.8);
+    color:black;
+}
+
+
+
+
+/*------------------------------------------------------
+BARRA DE NAVEGACIÓN
+------------------------------------------------------*/
+
+nav{
+	width: 100%;
+	height: 60px;	
+	background-color:rgba(0,0,0,.3);
+	position:fixed;
+}
+
+nav img{
+	height: 30px;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+nav ul{
+	float:right;
+	margin-right:40px;
+}
+
+nav li{
+	float:left;	
+	letter-spacing:2px;	
+	text-transform: uppercase;
+}
+
+nav a{
+	color:white;
+    line-height: 60px;
+    padding:0 10px;
+    display: inline-block;
+    font-size: .9em;
+}
+
+
+
+
+/*------------------------------------------------------
+HERO
+------------------------------------------------------*/
+
+#hero{
+	background: url("../img/hero_background.jpg") no-repeat center;
+	background-size: cover;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	background-attachment: fixed;
+}
+
+#hero h2{
+    padding-top: 180px;
+}
+
+#hero > img{
+	width:900px;
+	margin: 0 auto 180px;
+}
+
+
+
+/*------------------------------------------------------
+SERVICIOS
+------------------------------------------------------*/
+
+
+
+.iconosServicios{
+	margin-top:100px;	
+}
+
+.iconosServicios li{
+	color: rgb(190, 190, 190);
+    float: left;
+    letter-spacing: 3px;
+    margin: 0 20px;
+    text-align: center;
+    text-transform: uppercase;
+    width: calc(20% - 40px);
+}
+
+.iconosServicios img{
+	width:80px;
+	margin:0 auto;
+}
+
+.iconosServicios h6 {
+    color: rgb(190, 190, 190);
+    font-weight: 400;
+    margin-top: 0;
+}
+
+#servicios article{
+	margin-top:50px;
+}
+
+
+#servicios article p{
+	float: left;
+    margin: 0 20px;
+    width: calc(33.33% - 40px);
+    font-weight: 200;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+#servicios article .grande{    
+    font-size: 1.5em;    
+}
+
+#servicios article p a{
+	text-align:right;
+	display:block;
+}
+
+
+/*------------------------------------------------------
+NEWSLETTER
+------------------------------------------------------*/
+
+#newsletter{
+	text-align: center;
+	border-top:1px solid rgba(0,0,0,.1);
+}
+
+#newsletter p{
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 0.8em;
+}
+
+#newsletter button{
+    margin: 30px auto;
+}
+
+/*------------------------------------------------------
+CLAIM CANCAN
+------------------------------------------------------*/
+
+#claimCancan{
+	background: rgba(0, 0, 0, 0) url("../img/cancan-background.jpg") no-repeat fixed center / cover;
+	color:white;
+}
+
+#claimCancan div{
+	float:left;
+	width:50%;
+}
+
+#claimCancan h4 {
+    font-weight: 200;
+    letter-spacing: 7px;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+    margin-top: 150px;
+}
+
+#claimCancan p {
+    font-weight: 200;
+    line-height: 30px;
+}
+
+#claimCancan button{    
+    margin-top: 30px;
+}
+
+
+#claimCancan img {
+    margin-left: 20%;
+    width: 80%;
+}
+
+
+/*------------------------------------------------------
+VALORES
+------------------------------------------------------*/
+
+#valores h3{
+	margin-bottom: 80px;
+}
+
+
+#valores article{
+	float:left;
+	width:33.33%;
+	margin-bottom: 50px;
+}
+
+#valores article img {
+    display: block;
+    margin: 0 auto;
+    width: 80px;
+}
+
+#valores article p {
+    color: rgb(90, 90, 90);
+    padding: 0 20px;
+}
+
+
+
+/*------------------------------------------------------
+FOOTER
+------------------------------------------------------*/
+
+footer {
+    padding: 150px 0;
+    text-align: center;
+}
+
+footer p {
+    font-size: 0.7em;
+}
+
+
+footer img {
+    margin-bottom: 50px;
+    width: 100px;
+}
